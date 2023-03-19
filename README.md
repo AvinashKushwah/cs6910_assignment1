@@ -2,16 +2,18 @@
 Deep Learning Assignment
 
 
-Code Execution Intruction for "train.py" File: To execute the "train.py" file, ensure that the following hyperparameter names are used:
-parameters:     
-loss: options{"mse", "cross_entropy"}    # "mean_squared_error" will not work
-optimizer: options{"sgd", "nestrov", "adam", "nadam", "rmsprop"}     # "nag" will not work
-dataset: options{"mnist", "fashion_mnist"}
-rest all parameter names are same...
+Code Execution Intruction for "train.py" File: To execute the "train.py" file, ensure that the following hyperparameter names are used:\
+parameters: \
+loss: options{"mse", "cross_entropy"}    # "mean_squared_error" will not work\
+optimizer: options{"sgd", "nestrov", "adam", "nadam", "rmsprop"}     # "nag" will not work\
+dataset: options{"mnist", "fashion_mnist"}\
+rest all parameter names are same...\
 
+Code Execution Intruction for Question 1: In order to run the code, you will need to modify the project name specified in the following line:\ wandb.init(project="dl_assignment"). Additionally, you will need to provide your API key in order to successfully execute the code.\
 
+Code Execution Intruction for Question 2: In order to execute this code, you will need to provide the following inputs: the number of hidden layers, the number of neurons\ within each hidden layer, and an index of image from the test data set (which ranges from 0 to 9999). The code will then calculate the probability associated with the\ specified test data index.\
 
-Code Execution Intruction for Question 2: In order to execute this code, you will need to provide the following inputs: the number of hidden layers, the number of neurons within each hidden layer, and an index of image from the test data set (which ranges from 0 to 9999). The code will then calculate the probability associated with the specified test data index.
+Code Execution Intruction for Question 3,4,5,6:\
 
 
 Code Execution Intruction for  Question 7: To generate a confusion matrix, only the best performing hyperparameters that provide the highest accuracy have been used in sweep.
